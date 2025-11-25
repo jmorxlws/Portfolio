@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="bg-black">
+  <header class="fixed top-0 left-0 right-0 bg-cover bg-center h-16 sm:h-20 z-50" style="background-image: url('./Pictures/others/galaxyLoop.gif');">
+    <div class="absolute inset-0 bg-black/30"></div>
+
+    <div class="relative z-10 h-full">
+      <div class="container mx-auto px-4 h-full">
+        <div class="flex items-center justify-between h-full">
+          <a href="index.html" class="text-xl font-bold text-white transition-colors duration-400 hover:text-neutral-500">About me</a>
+          <nav>
+            <ul class="flex space-x-4">
+              <li><a href="experience.html"
+                  class="text-white transition-colors duration-400 hover:text-neutral-500">Experience</a></li>
+              <li><a href="projects.html"
+                  class="text-white transition-colors duration-400 hover:text-neutral-500">Projects</a></li>
+              <li><a href=""
+                  class="text-white transition-colors duration-400 hover:text-neutral-500">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="pt-16 sm:pt-40">
+    <img src="Pictures/me/profilePicture.jpg" alt="Profile Picture" class="w-48 h-48 rounded-full mx-auto mb-12 border-4 border-white shadow-lg">
+
+    <main class="flex-grow container mx-auto px-4 py-8 font-bold">
+      <section id="about" class="mb-12">
+        <p class="text-white mb-4 text-xl">
+          Welcome to my portfolio. I am Josue Morales. Here, you'll find a curated selection of my academic background, experience, and design-driven projects that reflect my growth and commitment to digital excellence.
+        </p>
+        <p class="text-white text-xl font-bold">
+          Feel free to explore my portfolio to see some of the work I've done!
+        </p>
+      </section>
+
+      <section id="skills" class="mb-12">
+        <h2 class="text-2xl font-bold mb-4">Skills</h2>
+        <ul class="list-disc list-inside text-white">
+          <li>Skill 1</li>
+          <li>Skill 2</li>
+          <li>Skill 3</li>
+          <li>Skill 4</li>
+          <li>Skill 5</li>
+        </ul>
+      </section>
+    </main>
+  </div>
+
+  <footer class="bg-neutral-900 mt-12">
+    <div class="container mx-auto px-4 py-4 text-center text-white">
+      &copy; 2025 Josue Morales. All rights reserved. 
+    </div>
+  </footer>
+
+</body>
+
+</html>

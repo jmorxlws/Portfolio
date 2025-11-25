@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="bg-black">
+  <header class="fixed top-0 left-0 right-0 bg-cover bg-center h-16 sm:h-20 z-50"
+    style="background-image: url('./Pictures/others/galaxyLoop.gif');">
+    <div class="absolute inset-0 bg-black/30"></div>
+
+    <div class="relative z-10 h-full">
+      <div class="container mx-auto px-4 h-full">
+        <div class="flex items-center justify-between h-full">
+          <a href="index.html"
+            class="text-xl font-bold text-white transition-colors duration-400 hover:text-neutral-500">About me</a>
+          <nav>
+            <ul class="flex space-x-4">
+              <li><a href="experience.html"
+                  class="text-white transition-colors duration-400 hover:text-neutral-500">Experience</a></li>
+              <li><a href="projects.html"
+                  class="text-white transition-colors duration-400 hover:text-neutral-500">Projects</a></li>
+              <li><a href=""
+                  class="text-white transition-colors duration-400 hover:text-neutral-500">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="pt-16 sm:pt-20">
+    <main class="flex-grow container mx-auto px-4 py-8">
+      <section id="about" class="mb-12">
+        <h2 class="text-2xl font-bold mb-4 text-white">Projects</h2>
+        <p class="text-white text-xl">Here you will find every project I was part of.</p>
+      </section>
+
+      <section id="CityAid" class="mb-12">
+        <h2 class="text-2xl font-bold mb-4 text-white">CityAid</h2>
+
+        <ul class="space-y-6">
+          <li class="bg-gray-900/40 border border-gray-800 rounded-lg p-4">
+            <div class="flex flex-col md:flex-row md:items-start md:gap-6">
+              <div class="w-full md:w-3/5" data-carousel>
+                <div class="relative">
+                  <div class="overflow-hidden rounded-md">
+                    <div class="flex transition-transform duration-300 ease-linear" data-carousel-track>
+                      <img src="Pictures/expoFreshmen/home.png" alt="CityAid 1"
+                        class="w-full flex-shrink-0 object-cover">
+                      <img src="Pictures/expoFreshmen/login.png" alt="CityAid 2"
+                        class="w-full flex-shrink-0 object-cover">
+                      <img src="Pictures/expoFreshmen/signUp.png" alt="CityAid 3"
+                        class="w-full flex-shrink-0 object-cover">
+                      <img src="Pictures/expoFreshmen/aboutUs.png" alt="CityAid 4"
+                        class="w-full flex-shrink-0 object-cover">
+                    </div>
+                  </div>
+
+                  <button type="button" data-carousel-prev
+                    class="absolute left-2 top-1/2 -translate-y-1/2 bg-black/50 text-white p-2 rounded-md shadow">‹</button>
+                  <button type="button" data-carousel-next
+                    class="absolute right-2 top-1/2 -translate-y-1/2 bg-black/50 text-white p-2 rounded-md shadow">›</button>
+
+                  <div class="flex justify-center gap-2 mt-3" data-carousel-dots></div>
+                </div>
+              </div>
+
+              <div class="mt-4 md:mt-0 md:w-2/5 md:pl-4 flex flex-col justify-between">
+                <div>
+                  <h3 class="text-lg font-semibold text-white">CityAid</h3>
+                  <p class="text-sm text-gray-400">¡Supérate! Fundación Poma / 2023</p>
+
+                  <p class="text-gray-300 mt-3">
+                    Project description here.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <section id="ScriptGo" class="mb-12">
+        <h2 class="text-2xl font-bold mb-4 text-white">ScriptGo</h2>
+
+        <ul class="space-y-6">
+          <li class="bg-gray-900/40 border border-gray-800 rounded-lg p-4">
+            <div class="flex flex-col md:flex-row md:items-start md:gap-6">
+              <div class="w-full md:w-3/5" data-carousel>
+                <div class="relative">
+                  <div class="overflow-hidden rounded-md">
+                    <div class="flex transition-transform duration-300 ease-linear" data-carousel-track>
+                      <img src="Pictures/expoJunior/logo2024.JPG" alt="ScriptGo 1"
+                        class="w-full flex-shrink-0 object-cover">
+                      <img src="Pictures/expoJunior/ourValues2024.jp g" alt="ScriptGo 2"
+                        class="w-full flex-shrink-0 object-cover">
+                    </div>
+                  </div>
+
+                  <button type="button" data-carousel-prev
+                    class="absolute left-2 top-1/2 -translate-y-1/2 bg-black/50 text-white p-2 rounded-md shadow">‹</button>
+                  <button type="button" data-carousel-next
+                    class="absolute right-2 top-1/2 -translate-y-1/2 bg-black/50 text-white p-2 rounded-md shadow">›</button>
+
+                  <div class="flex justify-center gap-2 mt-3" data-carousel-dots></div>
+                </div>
+              </div>
+
+              <div class="mt-4 md:mt-0 md:w-2/5 md:pl-4 flex flex-col justify-between">
+                <div>
+                  <h3 class="text-lg font-semibold text-white">ScriptGo</h3>
+                  <p class="text-sm text-gray-400">¡Supérate! Fundación Poma / 2024</p>
+
+                  <p class="text-gray-300 mt-3">
+                    Project description here.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <section id="ScriptGo2025" class="mb-12">
+        <h2 class="text-2xl font-bold mb-4 text-white">ScriptGo</h2>
+
+        <ul class="space-y-6">
+          <li class="bg-gray-900/40 border border-gray-800 rounded-lg p-4">
+            <div class="flex flex-col md:flex-row md:items-start md:gap-6">
+              <div class="w-full md:w-3/5" data-carousel>
+                <div class="relative">
+                  <div class="overflow-hidden rounded-md">
+                    <div class="flex transition-transform duration-300 ease-linear" data-carousel-track>
+                      <img src="Pictures/expoSenior/logo2025.JPG" alt="ScriptGo2025 1"
+                        class="w-full flex-shrink-0 object-cover">
+                      <img src="Pictures/expoSenior/login2025.jpg" alt="ScriptGo2025 2"
+                        class="w-full flex-shrink-0 object-cover">
+                      <img src="Pictures/expoSenior/prescription2025.jpg" alt="ScriptGo2025 3"
+                        class="w-full flex-shrink-0 object-cover">
+                    </div>
+                  </div>
+
+                  <button type="button" data-carousel-prev
+                    class="absolute left-2 top-1/2 -translate-y-1/2 bg-black/50 text-white p-2 rounded-md shadow">‹</button>
+                  <button type="button" data-carousel-next
+                    class="absolute right-2 top-1/2 -translate-y-1/2 bg-black/50 text-white p-2 rounded-md shadow">›</button>
+
+                  <div class="flex justify-center gap-2 mt-3" data-carousel-dots></div>
+                </div>
+              </div>
+
+              <div class="mt-4 md:mt-0 md:w-2/5 md:pl-4 flex flex-col justify-between">
+                <div>
+                  <h3 class="text-lg font-semibold text-white">ScriptGo</h3>
+                  <p class="text-sm text-gray-400">¡Supérate! Fundación Poma / 2025</p>
+
+                  <p class="text-gray-300 mt-3">
+                    Project description here.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </section>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
